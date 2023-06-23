@@ -2,9 +2,6 @@
 
 print("Hello world")
 
-for num in range(10):
-    print(num* 2)
-
 
 class A:
     def __init__(self, a):
@@ -16,3 +13,5 @@ class A:
 x=A()
 x.display()
 
+for num1 in range(20):
+    print(num1)
