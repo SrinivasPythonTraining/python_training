@@ -10,8 +10,9 @@ class A:
     def display(self):
         print("Printing class variable", self.a)
 
-x=A()
+
+x = A(10)
 x.display()
 
-for num1 in range(20):
-    print(num1)
+for num2 in range(20):
+    print(num2)
